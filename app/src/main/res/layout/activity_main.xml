@@ -36,6 +36,12 @@
             android:onClick="showSnackBarWithActionCallback"
             android:text="SnackBar with Action Callback"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showSnackBarWithColoredText"
+            android:text="SnackBar with Customization"/>
+
 
     </LinearLayout>
 
