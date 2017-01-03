@@ -30,6 +30,12 @@
             android:onClick="showSimpleSnackBar"
             android:text="Simple SnackBar"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="showSnackBarWithActionCallback"
+            android:text="SnackBar with Action Callback"/>
+
 
     </LinearLayout>
 
