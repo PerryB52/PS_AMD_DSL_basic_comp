@@ -42,7 +42,7 @@
         app:headerLayout="@layout/header"
         app:itemIconTint="#8C000000"
         app:itemTextColor="#E6000000"
-        app:menu="@menu/menu_grouped_items"/>
+        app:menu="@menu/menu_items_with_headers"/>
 
     <!-- Guidelines -->
     <!--  itemIconTint : Applies Color to the Icons of the Navigation Menu
