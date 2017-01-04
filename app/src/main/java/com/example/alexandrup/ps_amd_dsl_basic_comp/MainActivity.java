@@ -1,5 +1,6 @@
 package com.example.alexandrup.ps_amd_dsl_basic_comp;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.design.widget.CoordinatorLayout;
@@ -12,6 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
+    //never forget about design support dependecny in gradle file
 
     private CoordinatorLayout coordinatorLayout;
 
@@ -79,6 +81,13 @@ public class MainActivity extends AppCompatActivity {
         btn.setTextColor(Color.RED);
 
         snackbar.show();
+
+    }
+
+    public void goToActivityNavigationView(View view) {
+
+        Intent i = new Intent(MainActivity.this, ActivityNaigationView.class);
+        startActivity(i);
 
     }
 }
