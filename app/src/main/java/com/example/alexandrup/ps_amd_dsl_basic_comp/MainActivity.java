@@ -90,4 +90,10 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
 
     }
+
+    public void goToFloatingLabelsActivity(View view) {
+
+        Intent i = new Intent(MainActivity.this, ActivityFloatingLabels.class);
+        startActivity(i);
+    }
 }
