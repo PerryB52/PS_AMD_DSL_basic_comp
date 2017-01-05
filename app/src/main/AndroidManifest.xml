@@ -16,7 +16,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivityNaigationView" />
-        <activity android:name=".ActivityFloatingLabels"></activity>
+        <activity android:name=".ActivityFloatingLabels" />
+        <activity android:name=".ActivityAppBarLayout"></activity>
     </application>
 
 </manifest>

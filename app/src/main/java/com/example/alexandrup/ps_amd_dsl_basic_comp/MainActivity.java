@@ -96,4 +96,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, ActivityFloatingLabels.class);
         startActivity(i);
     }
+
+    public void goToAppbarLayout(View view) {
+
+        Intent i = new Intent(MainActivity.this, ActivityAppBarLayout.class);
+        startActivity(i);
+    }
 }
