@@ -17,7 +17,8 @@
         </activity>
         <activity android:name=".ActivityNaigationView" />
         <activity android:name=".ActivityFloatingLabels" />
-        <activity android:name=".ActivityAppBarLayout"></activity>
+        <activity android:name=".ActivityAppBarLayout" />
+        <activity android:name=".ActivityCollapsingToolbarLayout"></activity>
     </application>
 
 </manifest>

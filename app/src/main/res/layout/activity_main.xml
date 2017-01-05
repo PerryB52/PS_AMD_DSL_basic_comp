@@ -53,6 +53,15 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:onClick="goToCollapsingToolbarLayout"
+            android:text="Go To Collapsing ToolbarLayout"
+            android:background="@android:color/black"
+            android:textColor="@android:color/white"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:onClick="showSimpleSnackBar"
             android:text="Simple SnackBar"/>
 

@@ -102,4 +102,10 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(MainActivity.this, ActivityAppBarLayout.class);
         startActivity(i);
     }
+
+    public void goToCollapsingToolbarLayout(View view) {
+
+        Intent i = new Intent(MainActivity.this, ActivityCollapsingToolbarLayout.class);
+        startActivity(i);
+    }
 }
